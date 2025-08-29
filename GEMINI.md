@@ -242,3 +242,39 @@ choco install fd
 
 # Or download from https://github.com/sharkdp/fd/releases
 ```
+
+## sox
+### Description
+SoX (Sound eXchange) is a cross-platform command-line audio processing tool that can convert, filter, and analyze audio files. It's particularly useful for audio analysis tasks including generating statistics like RMS levels, peak amplitudes, frequency analysis, and applying various audio filters. Perfect for audio quality assessment, noise analysis, and extracting numerical audio metrics.
+
+Try using `sox --help` for options or `sox -h` for basic help.
+
+### Installation
+```bash
+# macOS (via Homebrew)
+brew install sox
+
+# Ubuntu/Debian
+sudo apt install sox
+
+# Windows (via Chocolatey)
+choco install sox
+
+# Or download from http://sox.sourceforge.net/
+```
+
+## replicate
+### Description
+Replicate CLI is a command-line interface for Replicate, a platform for running machine learning models in the cloud. It allows you to run AI models, create predictions, stream outputs, fine-tune models, and manage your Replicate account directly from the terminal. Perfect for integrating AI capabilities into workflows, automating model deployments, and rapid prototyping with various ML models.
+
+Try using `replicate --help` for available commands or `replicate [command] --help` for specific command help.
+
+### Installation
+```bash
+# macOS (via Homebrew)
+brew tap replicate/tap
+brew install replicate
+
+# Set your API token (get from replicate.com/account)
+export REPLICATE_API_TOKEN=<your-token-here>
+```
